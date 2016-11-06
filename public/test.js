@@ -4,8 +4,8 @@ window.onload = function() {
  
 //    alert( "welcome to Contact List App ;)" );
     
-    $( ".imgtop" ).hide(1);
-        $( ".img1" ).hide(300);
+    $( ".imgtop" ).hide(-4);
+        $( ".img1" ).hide(2500);
     
     
 //   document.getElementById("my_audio").play();
@@ -35,7 +35,7 @@ window.onclick = function(){
            
     $("#my_audio").pause();
        }
-      $(".imgtop").show(1500);
+      $(".imgtop").show(1800);
     
     $("#my_audio").get(0).play();
      
