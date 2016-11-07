@@ -1,138 +1,127 @@
-/* .inputbox{
-   background-color: red ;
-    
+.inputbox{
+    background-color: red ;
     font-family: 'Coiny', cursive;
-} */
-* {
-  margin: 0;
+} 
+*{
+	margin: 0;
 }
 html, body {
-  height: 100%;
+	height: 100%;
 }
 .page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px; 
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -142px;
 }
 .page-wrap:after {
-  content: "";
-  display: block;
+	content: "";
+	display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 142px; 
+	height: 142px;
 }
 .site-footer {
-  background: rgba(240, 173, 78, 0.78);
+	background: rgba(240, 173, 78, 0.78);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.background-image {
+	border: 1px dotted red;
+	background-image: url(http://placekitten.com/200/50);
+	background-position: center left;
+	background-repeat: repeat-x;
+	display: block;
+	width: 1500px;
+}
+.foreground-image {
+	vertical-align: top;
+	width: 600px;
+	border: 0px;
+	position: relative;
+	z-index: -1;
+}
+.copy {
+	margin-top: 1%;
+	margin-left: 35%;
+}
 .foodoo {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    margin-left: 30%;
-    margin-top: 1%;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin-left: 30%;
+	margin-top: 1%;
 }
-  main {
-    flex: 1 0 auto;
-  }
-      
-
-
+main {
+	flex: 1 0 auto;
+}
 .title {
-    
-    margin-bottom: 35px;
-    margin-left: 10%;
-    
+	margin-bottom: 35px;
+	margin-left: 10%;
 }
-  
 .headi {
-    
-    font-family: 'Rock Salt', cursive;
-    
-    font-size: 222%;
-    margin-top: 5.3%;
-    
+	font-family: 'Rock Salt', cursive;
+	font-size: 222%;
+	margin-top: 5.3%;
 }
-
 .logo1 {
-    
-  
-    background-clip: border-box;
+	background-clip: border-box;
 }
-
 .img1 {
-        width: 55%;
-    margin-left: 26%;
-
+	width: 55%;
+	margin-left: 26%;
 }
-
 .imgtop {
-        width: 80%;
-    margin-left: 10%;
-   
-    
-    margin-top: -6%;
-    
-
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -6%;
 }
-
 .img2 {
-    width: 16%;
-    margin-left: 68%;
-    margin-top: 1%;
+	width: 16%;
+	margin-left: 68%;
+	margin-top: 1%;
 }
-
 .orange {
-    height: 100px;
-    width: 100px;
-    background-color: orange;
-    border-radius: 5px;
-    border: 3px solid black;
-    margin-left: 100px;
-    margin-top: 100px;
-    display: none;
+	height: 100px;
+	width: 100px;
+	background-color: orange;
+	border-radius: 5px;
+	border: 3px solid black;
+	margin-left: 100px;
+	margin-top: 100px;
+	display: none;
 }
-
-
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    padding: .50%;
-    line-height: 1.42857143;
-/*    line-height: 1%;*/
-    vertical-align: top;
-    border-top: 1px solid #ddd;
+	padding: .50%;
+	line-height: 1.42857143;
+	/*    line-height: 1%;*/
+	vertical-align: top;
+	border-top: 1px solid #ddd;
 }
 .city {
-    width: 72%;
-    margin-left: -10%;
-    margin-top: 3%;
+	width: 72%;
+	margin-left: -10%;
+	margin-top: 3%;
 }
-
-
 .table {
+	margin-left: 5%;
+}
+.flash {
+	width: 100%;
+	margin-top: 3%;
+}
+.topflash {
+	width: 5%;
+	margin-top: 3%;
+}
+body {
     
-    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+    background-image: url(/paper.jpg);
+    font-family: 'Coiny', cursive;
+    text-shadow: white 0px 0px 2px;
+    font-size: 13px;
+    background-size: 100%;
+/*  margin-left: 3%;*/
 }
 
-.flash {
-    
-    width:  100%;
-  margin-top: 3%;
-   
-}
+
 
