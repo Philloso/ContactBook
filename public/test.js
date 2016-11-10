@@ -14,10 +14,6 @@ if(mm<10) {
     mm='0'+mm
 } 
 
-
-
-
-
 window.onload = function() {
     $( ".imgtop" ).hide(-4);
     $( ".img1" ).hide(2500);
@@ -27,7 +23,7 @@ window.onclick = function(){
        if (played) {   
     $("#my_audio").pause();
     }
-      $(".imgtop").show(1800);
+      $(".imgtop").show(1300);
       $("#my_audio").get(0).play();
        played = true;  
  }; 
