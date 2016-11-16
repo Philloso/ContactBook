@@ -1,7 +1,10 @@
+//------------- set up http controller ----------------
+
 var myApp = angular.module('myApp', []);
 myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
     console.log("Hello World from controller");
     
+//---------- refresh & update page ------------
     
     var refresh = function () {
         $http.get('/contactlist').success(function(response){
@@ -12,6 +15,8 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
     };
     
     refresh();
+    
+    //----------- Add contact -----------
         
     $scope.addContact = function() {
         console.log($scope.contact);
@@ -21,12 +26,16 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
         });
     };
     
+    //----------- Delete contact -----------
+    
     $scope.remove = function(id){
         console.log(id);
         $http.delete('/contactlist/' + id).success(function(response){
             refresh(); 
         });
     };
+    
+    //----------- Edit contact -----------
  
    $scope.edit = function(id){
         console.log(id);
