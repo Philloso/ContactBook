@@ -43,6 +43,8 @@ myApp.controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
            $scope.contact = response;
         });
     };
+     
+    //---------- update edited contact ------
     
        $scope.update = function(){
         console.log($scope.contact._id);

@@ -44,7 +44,7 @@ app.delete('/contactlist/:id', function(req, res){
     });
 });
 
-//--------------------------------------------
+//--------------- respond to get request----------------------
 
 app.get('/contactlist/:id', function(req, res){
     var id = req.params.id;
@@ -55,7 +55,7 @@ app.get('/contactlist/:id', function(req, res){
     
 });
 
-//------------------Add to HTML------------
+//------------------update Add to page------------
 
 app.put('/contactlist/:id', function (req, res){
     var id = req.params.id;
