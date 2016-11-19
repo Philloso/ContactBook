@@ -16,7 +16,7 @@ if(mm<10) {
 
 window.onload = function() {
     $( ".imgtop" ).hide(-4);
-    $( ".img1" ).hide(2500);
+    $( ".img1" ).hide(200);
 };
 
 window.onclick = function(){
